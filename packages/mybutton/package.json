@@ -1,6 +1,6 @@
 {
   "name": "di-mybuttonshisshi",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "di-mybutton component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
@@ -8,7 +8,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
   "keywords": [],
   "gitHead": "64080f802ecb7b044e3c24e5dc73df8408ced9d2"
 }
