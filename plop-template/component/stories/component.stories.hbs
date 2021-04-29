@@ -1,19 +1,19 @@
 import Vue from 'vue';
-import Di{{properCase name}} from '../src/{{name}}.vue'
+import {{properCase name}} from '../src/{{name}}.vue'
 import README from '../README.md'
 export default {
-  title: 'Di{{properCase name}}',
-  component: Di{{properCase name}},
+  title: '{{properCase name}}',
+  component: {{properCase name}},
   parameters: {
     notes: { README },
   },
 }
 
 export const {{properCase name}} = _ => ({
-  components: { Di{{properCase name}} },
+  components: { {{properCase name}} },
   template: `
     <div>
-      <Di-{{name}}></Di-{{name}}>
+      <{{name}}></{{name}}>
     </div>
   `
 })
