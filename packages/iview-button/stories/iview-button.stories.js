@@ -5,6 +5,7 @@ import 'view-design/dist/styles/iview.css';
 import { action } from '@storybook/addon-actions';
 import README from '../README.md'
 Vue.use(ViewUI)
+
 export default {
   title: 'DiIviewButton',
   component: DiIviewButton,

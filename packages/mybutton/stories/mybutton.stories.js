@@ -3,7 +3,6 @@ import DiMybutton from '../src/mybutton.vue'
 import README from '../README.md'
 import '../index.css'
 
-
 export default {
   title: 'DiMybutton',
   components: DiMybutton,

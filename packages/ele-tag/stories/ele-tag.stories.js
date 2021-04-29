@@ -4,6 +4,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import DiEleTag from '../'
 import README from '../README.md'
 Vue.use(ElementUI);
+
 export default {
   title: 'DiEleTag',
   component: DiEleTag,
