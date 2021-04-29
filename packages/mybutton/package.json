@@ -1,6 +1,6 @@
 {
   "name": "di-mybuttonshisshi",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "di-mybutton component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
