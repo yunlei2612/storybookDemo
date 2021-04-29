@@ -1,5 +1,5 @@
 {
-  "name": "di-iview-button",
+  "name": "di-iview-buttonshishsishisih",
   "version": "0.1.1",
   "description": "di-iview-button component",
   "main": "dist/cjs/index.js",
@@ -9,5 +9,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "gitHead": "5882e58c61236fa14c49463b92f671847b392358"
+  "gitHead": "4e7d0e81ecdda052907aa58ac074684ed95c6602"
 }
