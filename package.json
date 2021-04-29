@@ -1,9 +1,6 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "name": "03-lgelement",
+  "name": "Qiui0001",
+  "module": "packages/index.js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
