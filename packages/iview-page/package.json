@@ -1,7 +1,7 @@
 {
-  "name": "di-{{name}}",
+  "name": "di-iview-page",
   "version": "0.0.0",
-  "description": "di-{{name}} component",
+  "description": "di-iview-page component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "license": "MIT",

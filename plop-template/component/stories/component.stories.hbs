@@ -1,15 +1,19 @@
-import Lg{{properCase name}} from '../src/{{name}}.vue'
-
+import Vue from 'vue';
+import Di{{properCase name}} from '../src/{{name}}.vue'
+import README from '../README.md'
 export default {
-  title: 'Lg{{properCase name}}',
-  component: Lg{{properCase name}}
+  title: 'Di{{properCase name}}',
+  component: Di{{properCase name}},
+  parameters: {
+    notes: { README },
+  },
 }
 
 export const {{properCase name}} = _ => ({
-  components: { Lg{{properCase name}} },
+  components: { Di{{properCase name}} },
   template: `
     <div>
-      <lg-{{name}}></lg-{{name}}>
+      <Di-{{name}}></Di-{{name}}>
     </div>
   `
 })

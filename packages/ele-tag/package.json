@@ -1,7 +1,7 @@
 {
-  "name": "di-{{name}}",
+  "name": "di-ele-tag",
   "version": "0.0.0",
-  "description": "di-{{name}} component",
+  "description": "di-ele-tag component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "license": "MIT",
