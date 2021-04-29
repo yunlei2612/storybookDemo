@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "DiMybutton",
+  name: "di-button",
   props: {
     isDisabled: {
       type: Boolean,

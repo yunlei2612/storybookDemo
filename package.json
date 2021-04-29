@@ -1,7 +1,10 @@
 {
-  "name": "Qiui0001",
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "dielement",
   "module": "packages/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
