@@ -26,4 +26,5 @@ export const mybutton = () => ({
      <DiMybutton :isDisabled="isDisabled">{{ text }}</DiMybutton>
   </div>
   `,
+  
 });
