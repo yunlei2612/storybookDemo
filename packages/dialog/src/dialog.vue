@@ -1,67 +1,39 @@
-
 <template>
-    <el-dialog :visible.sync="visibleDialog" v-bind="$attrs" v-on="$listeners">
-      <slot></slot>
-      <template #footer>
-        <slot name="footer">
-          <div class="dialog-footer-ct">
-            <el-button @click="cancelOp"  :type="tst">取 消</el-button>
-            <el-button @click="sureOp" type="primary">确 定</el-button>
-          </div>
-        </slot>
-      </template>
-    </el-dialog>
+  <el-dialog
+    :title="title"
+    :visible="dialogVisible"
+    @close="$emit('update:dialogVisible', false)"
+    :width="width">
+    <slot name="modal-body"></slot>
+
+    <div slot="footer" class="dialog-footer">
+      <slot name="modal-footer">
+        <el-button @click="$emit('update:dialogVisible', false)" size="small">取 消</el-button>
+        <el-button type="primary" @click="$emit('confirm')" size="small" :disabled="confirmDisable || beforeSendDisable">{{ beforeSendDisable? "处理中..." : "确 定" }}</el-button>
+      </slot>
+    </div>
+
+  </el-dialog>
 </template>
 
 <script>
-    export default {
-      name: 'dialog',
-      data(){
-        return{
-          tst:['11111111111']
-        }
-      },
-      props: {
-        visible: {
-          default: false,
-          type: Boolean,
-        },
-
-      },
-      computed: {
-        visibleDialog: {
-          get() {
-            return this.visible
-          },
-          set(val) {
-            this.$emit('update:visible', val)
-          },
-
-        },
-      },
-      methods: {
-        cancelOp() {
-          this.$emit('onCancelEvent')
-          this.visibleDialog = false;
-        },
-        sureOp() {
-          this.$emit('onSureEvent')
-          this.visibleDialog = false;
-        },
-
-      },
-     //  data:{
-     //      return {
-     //        visibleDialog
-     //      }
-     // }
+export default {
+  name: 'qeModal',
+  props: {
+    dialogVisible: Boolean,
+    title: String,
+    width: {
+      type: String,
+      default: '580px'
+    },
+    beforeSendDisable: {
+      type: Boolean,
+      default: false
+    },
+    confirmDisable: {
+      type: Boolean,
+      default: false
     }
-</script>
-
-<style scoped>
-  .dialog-footer-ct{
-    margin: 10px auto;
-    text-align: center;
   }
-
-</style>
+}
+</script>

@@ -4,7 +4,7 @@
   ],
   "name": "dielement",
   "module": "packages/index.js",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "dependencies": {

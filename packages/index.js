@@ -1,7 +1,8 @@
 import diButton from './mybutton/index.js';
-
+import dialog from './dialog/index.js';
 const components = [
-  diButton
+  diButton,
+  dialog
 ];
 
 const install = function (Vue, opts = {}) {
@@ -17,5 +18,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  diButton
+  diButton,
+  dialog
 };
