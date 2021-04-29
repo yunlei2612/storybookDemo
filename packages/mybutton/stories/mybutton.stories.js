@@ -3,6 +3,7 @@ import DiMybutton from '../src/mybutton.vue'
 import README from '../README.md'
 import '../index.css'
 
+
 export default {
   title: 'DiMybutton',
   components: DiMybutton,
@@ -26,5 +27,4 @@ export const mybutton = () => ({
      <DiMybutton :isDisabled="isDisabled">{{ text }}</DiMybutton>
   </div>
   `,
-  
 });

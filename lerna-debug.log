@@ -1,0 +1,13 @@
+15 error Error: Command failed: git remote update
+15 error error: RPC failed; curl 28 OpenSSL SSL_read: Connection was reset, errno 10054
+15 error fatal: expected flush after ref listing
+15 error error: Could not fetch origin
+15 error
+15 error Fetching origin
+15 error
+15 error     at makeError (C:\Users\yunlei\Desktop\storybookDemo\node_modules\execa\index.js:174:9)
+15 error     at Function.module.exports.sync (C:\Users\yunlei\Desktop\storybookDemo\node_modules\execa\index.js:338:15)
+15 error     at Object.execSync (C:\Users\yunlei\Desktop\storybookDemo\node_modules\@lerna\child-process\index.js:26:16)
+15 error     at updateRemote (C:\Users\yunlei\Desktop\storybookDemo\node_modules\@lerna\version\lib\is-behind-upstream.js:26:16)
+15 error     at isBehindUpstream (C:\Users\yunlei\Desktop\storybookDemo\node_modules\@lerna\version\lib\is-behind-upstream.js:11:3)
+15 error     at VersionCommand.initialize (C:\Users\yunlei\Desktop\storybookDemo\node_modules\@lerna\version\index.js:154:9)
