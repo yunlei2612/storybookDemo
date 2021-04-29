@@ -1,6 +1,6 @@
 import DiMybutton from './src/mybutton.vue'
 DiMybutton.install = Vue => {
-  Vue.component(LgMybutton.name, DiMybutton)
+  Vue.component(DiMybutton.name, DiMybutton)
 }
 
 export default DiMybutton
